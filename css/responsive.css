@@ -1,0 +1,28 @@
+    
+    /*Repsonsive Css */
+    
+@media (min-width: 993px) and (max-width: 1200px) {
+    .title-img {
+        right: 220px;
+    }
+}
+@media (max-width:992px) {
+    .title-img{
+        position:static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+     .big-heading {
+        font-size:2.3rem;
+    }
+    .section-heading {
+        font-size: 2rem;
+    }
+     .testimonial-text {
+        font-size: 1.5rem;
+    }
+}
+
+
